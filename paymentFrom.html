@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Web</title>
+    <style>
+        div {
+            margin: 0 auto;
+            /* max-width: 900px; */
+        }
+
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 15px 20px;
+            padding: 10px;
+            width: 1000px;
+
+        }
+    
+
+        .contain {
+            background-color: rgb(150, 186, 217);
+            padding: 5px 50px 15px 20px;
+            border: 1px solid black;
+            /* width: 1000px; */
+            align-items: center;
+            font-size: 20px;
+            border-radius: 30px;
+        }
+
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        .input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            background-color: azure;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            margin: 10px;
+
+
+
+
+        }
+
+        .border {
+            background-color: azure;
+            border: none;
+            border-radius: 5px;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        .input1 {
+            width: 103%;
+            font-size: 20px;
+            background-color: #4daea1;
+            border: none;
+            border-radius: 5px;
+            height: 40px;
+            padding: 10px 20px 5px 20px;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            cursor: pointer;
+        }
+
+        .input1:hover {
+            background-color: rgb(38, 50, 56);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .point {
+            cursor: pointer;
+        }
+        label{
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <form action="submit" class="contain">
+            <h1>Payment Form</h1>
+            <hr>
+            <h2>User Information</h2>
+            <p>Name:
+                *<input type="text" name="name" placeholder="Sam" required class="input"></p>
+            <fieldset class="border">
+                <legend>Gender *</legend>
+                <p>
+                    <label for="male">Male</label> 
+                    <input type="radio" name="gender" id="male" required class="point"/>
+                    <label for="female">Female</label>
+
+                    <input type="radio" name="gender" required class="point" id="female">
+
+                    <label for="other">Other</label>
+                   <input type="radio" name="gender" required class="point" id="other">
+                
+                </p>
+            </fieldset>
+            <p>
+                Address:<textarea name="address" id="address" cols="1" rows="3"></textarea>
+            </p>
+            <p> Email:*
+                <input 
+                type="email" name="email" required class="input" >
+            </p>
+            <p> PinCode:*
+                <input type="number" name="pincode" required class="input">
+            </p>
+            <hr>
+            <h2>Payment Information</h2>
+            <p>CardType*:
+                <select name="card_name"  id="card_name" required class="input">
+                    <option value="" class="input">--Select Your card name</option>
+                    <option value="" class="input">Visa</option>
+                    <option value="" class="input">Mstercard</option>
+                    <option value="" class="input">Rupway</option>
+                    <option value="" class="input">UPI</option>
+                </select>
+            </p>
+            <p>
+                CardNumber:* <input type="number" name="cardnumber" required class="input">
+            </p>
+            <p>
+                ExpierDate:* <input type="date" name="expierdate " id="expierdate" required class="input">
+            </p>
+            <p>
+                CVV:* <input type="password" name="cvv" id="cvv" required class="input">
+            </p>
+            <input type="submit" value="Pay-Now" class="input1">
+        </form>
+    </div>
+</body>
+
+</html>

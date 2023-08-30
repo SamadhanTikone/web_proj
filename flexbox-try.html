@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: gray;
+            font-size: 20px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .main-cotainer{
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            border: none;
+            flex-wrap: wrap ;
+            margin-bottom: 30px;
+            /* height: 800px; */
+            
+        }
+        .main-cotainer1{
+            margin-top:30px;
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            border: none;
+            flex-wrap: wrap ;
+
+            /* height: 800px; */
+            
+        }
+        .div1:hover{
+
+            /* animation: forwards 10; */
+            cursor: pointer;
+            /* zoom: 20%; */
+            scale: 105%;
+        }
+        .div2:hover{
+
+            /* animation: forwards 10; */
+            cursor: pointer;
+            /* zoom: 20%; */
+            scale: 105%;
+        }
+        .div3:hover{
+
+            /* animation: forwards 10; */
+            cursor: pointer;
+            /* zoom: 20%; */
+            scale: 105%;
+        }
+        .div1
+        {
+            /* border: 2px solid black; */
+            padding: 10px;
+            box-shadow: rgba(0,0,00.35) 0px 5px 15px;
+            padding: 20px;
+            width: 500px;
+            /* float: top; */
+            border-radius: 10px;
+            transition: scale 400ms;
+        }
+
+        .read{
+            background-color: rgb(65, 65, 242);
+            width: 300px;
+            cursor: pointer;
+            height: 50px;
+            padding: 10px;
+            margin-left: 100px;
+            border: none;
+            border-radius: 10px;
+            /* justify-items: center; */
+            transition: scale 400ms;
+
+
+        }
+        .read:hover{
+            background-color: rgb(104, 240, 161);
+            scale: 120%;
+        }
+        h1{
+            text-align: center;
+            text-shadow: 2px 2px aqua;
+        }
+        .div2{
+            /* border: 2px solid black; */
+            /* height: 500px; */
+            /* border-radius: 10px; */
+            box-shadow: rgba(0,0,00.35) 0px 5px 15px;
+            padding: 20px;
+            border-radius: 10px;
+            /* align-items: stretch; */
+            width: 500px;
+            transition: scale 400ms;
+            /* float: bottom; */
+        }
+        .div3{
+            /* border: 2px solid black; */
+            /* height: 500px; */
+            box-shadow: rgba(0,0,00.35) 0px 5px 15px;
+            padding: 20px;
+            border-radius: 10px;
+            transition: scale 400ms;
+
+            width: 500px;
+        }
+        img{
+            /* float:bottom;
+             */
+             border-radius: 10px;
+        }
+        .img3{
+            float: left;
+        }
+        nav{
+            background-color: rgb(106, 110, 110);
+            overflow: hidden;
+            position: sticky;
+            /* background: transparent ; */
+            top: 0;
+            padding: 20px;
+            margin: 30px;
+            border-radius: 10px;
+           
+
+        }
+        nav a{
+            text-decoration: none;
+            padding: 13px;
+            float: left;
+            color: black;
+
+        }
+        a:hover {
+            color: purple;
+        }
+        footer{
+    overflow: hidden;
+    background-color: rgb(68, 66, 66);
+    text-align: center;
+
+}
+footer a{
+    text-decoration: none ;
+
+    color:white ;
+    font-weight: 100;
+    padding: 20px;
+    float: left;
+}
+.founder{
+    overflow: hidden;
+    transition: scale 400ms;
+}
+.founder:hover{
+    scale: 120%;
+
+}
+section{
+        text-align: center;
+        padding: 20px;
+
+}
+       
+    </style>
+</head>
+
+<body>
+    <h1>FLEX BOX</h1>
+    <hr color="black">
+    <nav>
+        <a href="">Home</a>
+        <a href="">Article</a>
+        <a href="">Contact</a>
+        <a href="">About</a>
+        <a href="">Follow</a>
+    </nav>
+    
+    
+    <div class="main-cotainer">
+    <div class="div1">
+        <img src="/Source/edited.jpg" alt="" width="500px">
+        <h2>SAmadhan Tikone</h2>
+        <p>B.Tech student from Terna College of Engineering College , Dharashiv
+            Welcome to First Try Website </p>
+        <button type="button" class="read">Read More..</button>
+    </div>
+    <div class="div2">
+        <img src="/Source/7986075.jpg" alt="" width="500px" class="img2">
+        <h2> Spider Man</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores quae deserunt totam. Tempora consequuntur unde officia, ex neque numquam sequi
+        consequatur explicabo dignissimos saepe veniam vero quos enim temporibus asperiores illum rem amet tempore. Dicta tenetur est fuga aliquid eum temporibus omnis, nostrum, repellendus quas animi dolorum similique. Mollitia, repellendus?</pre>
+        <button type="button" class="read">Read More..</button>
+    </div>
+    <div class="div3">
+        <img src="/Source/4608163.jpg" width="500px" alt="" class="img3">
+        <h2>Iron Man</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis voluptates vero debitis, ad perspiciatis repellat autem voluptatibus expedita illum nostrum nulla provident esse enim sed possimus distinctio perferendis cupiditate ipsam quia aut! Omnis asperiores iure atque necessitatibus modi? Optio magnam excepturi consequuntur delectus deserunt reprehenderit ex modi quo aperiam at quas error laboriosam, accusantium illo inventore corporis, natus dolore, voluptas dolores. Recusandae aspernatur suscipit corporis dicta enim similique eveniet esse?</p>
+        
+        
+        <div class="">
+        <button type="button" class="read">Read More..</button>
+    </div>
+    </div>
+</div>
+<hr color="black">
+    
+    <div class="main-cotainer1">
+    <div class="div1">
+        <img src="/Source/edited.jpg" alt="" width="500px">
+        <h2>SAmadhan Tikone</h2>
+        <p>B.Tech student from Terna College of Engineering College , Dharashiv
+            Welcome to First Try Website Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, quasi.</p>
+        <button type="button" class="read">Read More..</button>
+    </div>
+    <div class="div2">
+        <img src="/Source/4608081.jpg" alt="" width="500px" class="img2">
+        <h2> Spider Man</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores quae deserunt totam. Tempora consequuntur unde officia, ex neque numquam sequi consequatur explicabo dignissimos saepe veniam vero quos enim temporibus asperiores illum rem amet tempore. Dicta tenetur est fuga aliquid eum temporibus omnis, nostrum, repellendus quas animi dolorum similique. Mollitia, repellendus?</p>
+        <button type="button" class="read">Read More..</button>
+    </div>
+    <div class="div3">
+        <img src="/Source/4608163.jpg" width="500px" alt="" class="img3">
+        <h2>Iron Man</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis voluptates vero debitis, ad perspiciatis repellat autem voluptatibus expedita illum nostrum nulla provident esse enim sed possimus distinctio perferendis cupiditate ipsam quia aut! Omnis asperiores iure atque necessitatibus modi? Optio magnam excepturi consequuntur delectus deserunt reprehenderit ex modi quo aperiam at quas error laboriosam, accusantium illo inventore corporis, natus dolore, voluptas dolores. Recusandae aspernatur suscipit corporis dicta enim similique eveniet esse?</p>
+        
+        
+        <div class="">
+        <button type="button" class="read">Read More..</button>
+    </div>
+    </div>
+</div>
+<section class="last">
+    <h2>Our Founder</h2>
+<img src="/Source/edited.jpg" width="200px" alt="" style="border-radius: 100px;" class="founder">
+    <h3>Samadhan Tikone</h3>
+    <p class="info">Third year student in COEO </p>
+    <a href="" target="_blank" class="link">YouTube |</a>
+    <a href="" target="_blank" class="link">Instagram |</a>
+    <a href="" target="_blank" class="link">Twitter</a>
+    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, est!</h4>
+</section>
+<footer>
+    <a href="" target="_blank">FAQ</a>
+    <a href="" target="_blank">Contact US</a>
+    <a href="" target="_blank">Terms of Use</a>
+    <a href="" target="_blank">Privacy Policy</a>
+    <a href="" target="_blank">Refund Policy</a>
+    <a href="" target="_blank"> &#9400 SMAT Dev</a>
+</footer>
+
+    
+</body>
+</html>

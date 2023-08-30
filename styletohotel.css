@@ -1,0 +1,298 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+.main{
+    display: grid;
+    wrap:wrap ;
+}
+.body{
+    background-color:aliceblue;
+}
+.main_field{
+    background-image: url(/Source/hotel.jpg);
+    height: 800px;
+    object-fit: contain;
+    padding-bottom: 20px;
+    background-repeat: no-repeat;
+
+}
+h1{
+    text-align: left;
+    padding-top: 300px;
+    padding-left: 400px;
+    /* color: #2596be; */
+    font-size: 60px;
+    text-shadow: 2px 2px #02FFFD;
+    letter-spacing: 4px;
+
+}
+.main_field p{
+    font-size: 30px;
+    font-weight: 300;
+    color: #ffff;
+    padding-left: 300px;
+
+
+}
+.navbar{
+    overflow: hidden;
+    background-color:  rgba(93, 94, 94, 1);
+    /* opacity: 0.2; */
+    position: sticky;
+    top: 0;
+    /* border-radius: 10px; */
+
+}
+nav a{
+    text-decoration: none;
+    color:rgb(6, 6, 7);
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    float: left;
+    
+
+}
+.navbar a:hover{
+    color: rgb(254, 252, 255);
+    
+}
+ h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 2px white;
+    /* background-color: cornflowerblue; */
+}
+.image1{
+    width: 500px;
+    border-radius: 10px;
+    transition: scale 100ms;
+    /* padding:20px; */
+
+}
+.image1:hover{
+    scale:102%;
+
+}
+.dish1{
+            box-shadow: rgba(0,0,00.35) 0px 5px 15px;
+            padding: 20px;
+            width: 500px;
+            /* float: top; */
+            border-radius: 10px;
+
+}
+.image2{
+    width: 530px;
+    border-radius: 10px;
+    transition: scale 100ms;
+    /* padding:20px; */
+
+}
+.image2:hover{
+    scale:102%;
+}
+.dish2{
+    box-shadow: rgba(0,0,00.35) 0px 5px 15px;
+    padding: 20px;
+    width: 550px;
+    border-radius: 20px;
+
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 20px 20px 20px 20px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-wrap: wrap;
+}
+.image3{
+    width: 530px;
+    border-radius: 10px;
+    transition: scale 100ms;
+    /* padding:20px; */
+    /* object-fit: fill; */
+
+}
+.image3:hover{
+    scale:102%;
+}
+.dish3{
+    box-shadow: rgba(0,0,00.35) 0px 5px 15px;
+    padding: 20px;
+    width: 550px;
+    border-radius: 20px;
+
+}
+.info{
+    padding-top: 20px;
+    text-align: center;
+font-family:cursive;
+font-size: 20px;
+padding-bottom: 20px;
+
+}
+.info1{
+    padding-bottom: 200px;
+
+
+}
+.info2{
+    padding-bottom: 170px;
+}
+
+hr{
+    height:10px;
+     color: black;
+}
+.button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: azure;
+    font-size: 16px;
+    transition: scale 100ms;
+    margin-left: 200px;
+    padding-top: ;
+    margin-bottom: 0;
+    /* position: fixed; */
+  
+
+}
+.button:hover{
+    background-color:rgb(55, 249, 107);
+    cursor: pointer;
+    scale:105%;
+
+}
+footer{
+    overflow: hidden;
+    background-color: rgb(68, 66, 66);
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 200px;
+
+}
+footer a{
+    text-decoration: none ;
+
+    color:white ;
+    font-weight: 100;
+    padding: 20px;
+    float: left;
+}
+footer a:hover {
+    color: black;
+}
+.founder{
+    overflow: hidden;
+    transition: scale 400ms;
+}
+.founder:hover{
+    scale: 105%;
+
+}
+section{
+        text-align: center;
+        padding: 20px;
+        line-height: 30px;
+
+}
+.user1{
+    width: 100px;
+    float: left;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-top: 0px;
+}
+.review_box1 ,.review_box2 , .review_box3 , .review_box4 , .review_box5, .review_box6{
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.4) 10px 18px 36px 12px inset; */
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    padding: 20px;
+    padding-right: 20px;
+    width: 600px;
+    /* height: 300px; */
+    border-radius: 20px;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 20px;
+}
+.review_box1 p,h3{
+
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.review_box1  p{
+    font-family: cursive;
+    font-size: 20px;
+}
+.review_box2  p{
+    font-family: cursive;
+    font-size: 20px;
+}
+.review_box3  p{
+    font-family: cursive;
+    font-size: 20px;
+}
+.review_box4  p{
+    font-family: cursive;
+    font-size: 20px;
+}
+.review_box5 p{
+    font-family: cursive;
+    font-size: 20px;
+}
+.review_box6 p{
+    font-family: cursive;
+    font-size: 20px;
+}
+.reviews{
+    padding-left: 20px;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    display :grid;
+    grid-template-columns+: 1rem,1rem,1rem;
+    grid-gap: 20px;
+    /* grid-auto-rows: minmax(290px,auto);
+    grid-auto-columns: minmax(290px,auto ); */
+
+}
+
+
+.review_box6{
+    overflow: hidden;
+}
+/* .review_box5{
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.review_box2{
+    grid-row-start: 3;
+    grid-row-end: 4;
+} */
+
+
+
+.iron{
+    width:150px;
+    float:none;
+    border-radius: 40%;
+}
+h3{
+
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.about{
+   
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.about img{
+    width: 50%;
+}
